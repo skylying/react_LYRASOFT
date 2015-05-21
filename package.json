@@ -1,0 +1,11 @@
+{
+  "name": "react_sms",
+  "version": "1.0.0",
+  "description": "React.js introduction for SMS",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}
