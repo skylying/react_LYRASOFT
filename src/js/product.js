@@ -10,3 +10,8 @@ var products =
 		{category: "Electronics", price: "$199.99", stocked: true, name: "Nexus 7"}
 	];
 
+$(document).ready(function() {
+
+	React.render(<FilterableProductTable products={products} />, document.getElementById('content'));
+
+});
