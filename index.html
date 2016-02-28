@@ -25,52 +25,9 @@
 	</div>
 </div>
 
-<script type="text/babel">
-
-	/**
-	 * React.js basic API
-	 *
-	 * 1.
-	 * React.createElement(
-	 *   string/ReactClass type,
-	 *   [object props],
-	 *   [children ...]
-	 * )
-	 *
-	 * 2.
-	 * React.createClass({})
-	 *
-	 *
-	 */
-
-
-	var HeroList = React.createClass({
-		render: function() {
-			return (
-				<div>
-					<h3>Hero 1 : Bruce Wayne</h3>
-					<h3>Hero 2 : Peter Parker</h3>
-				</div>
-			)
-		}
-	})
-
-	var HeroTable = React.createClass({
-
-		render: function() {
-			return (
-				<div>
-					<h1>Hero List</h1>
-					<hr />
-					<HeroList />
-				</div>
-			)
-		}
-	});
-
-	ReactDOM.render(<HeroTable/>, document.getElementById('content'));
-
-</script>
+<script type="text/babel" src="src/js/components/HeroList.jsx"></script>
+<script type="text/babel" src="src/js/components/HeroTable.jsx"></script>
+<script type="text/babel" src="src/js/components/App.jsx"></script>
 
 <!--<script type="text/jsx" src="src/js/components/productRow.js"></script>-->
 <!--<script type="text/jsx" src="src/js/components/productCategoryRow.js"></script>-->

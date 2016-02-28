@@ -1,0 +1,1 @@
+ReactDOM.render(<HeroTable/>, document.getElementById('content'));
