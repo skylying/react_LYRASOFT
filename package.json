@@ -1,11 +1,19 @@
 {
-  "name": "react_sms",
-  "version": "1.0.0",
-  "description": "React.js introduction for SMS",
-  "main": "gulpfile.js",
+  "name": "react_LYRASOFT",
+  "version": "0.0.0",
+  "description": "Introduction react.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "BSD-2-Clause"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/skylying/react_LYRASOFT.git"
+  },
+  "author": "Tim Lin",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/skylying/react_LYRASOFT/issues"
+  },
+  "homepage": "https://github.com/skylying/react_LYRASOFT"
 }
