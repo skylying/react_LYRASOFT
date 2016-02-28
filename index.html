@@ -43,7 +43,22 @@
 	 *
 	 */
 
+	var Title = React.createElement('h1', null, 'Hero list');
+	var hr = React.createElement('hr');
 
+	var Hero1 = React.createElement('h3', null, "Hero 1 : Bruce Wayne");
+	var Hero2 = React.createElement('h3', null, "Hero 2 : Peter Parker");
+	var HeroRow1 = React.createElement('div', null, Hero1);
+	var HeroRow2 = React.createElement('div', null, Hero2);
+
+	var HeroTable = React.createClass({
+
+		render: function() {
+			return React.createElement('div', null, [Title, hr, HeroRow1, HeroRow2]);
+		}
+	});
+
+	ReactDOM.render(React.createElement(HeroTable, null, "Super hero list"), document.getElementById('content'));
 
 </script>
 
